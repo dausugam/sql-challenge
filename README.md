@@ -8,7 +8,7 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 ## Files
 
-Database was constructed using the CSV files available at [EmployeeSQL/data]
+Database was constructed using the CSV files available at ``EmployeeSQL/data``
 
 ##
 
@@ -18,11 +18,11 @@ The Entity Relationship Diagram was developed using QuickDBD and is available at
 
 ### Data Engineering
 
-Database and schema was created using pgAdmin 4 [EmployeeSQL/employee_schema.sql]
+Database and schema was created using pgAdmin 4 ``EmployeeSQL/employee_schema.sql``
 
 ### Data Analysis
 
-Some data analysis was conducted [EmployeeSQL/employee_data_analysis.sql] using SQL to identify the below lists:
+Some data analysis was conducted ``EmployeeSQL/employee_data_analysis.sql`` using SQL to identify the below lists:
 - List the employee number, last name, first name, sex, and salary of each employee.
 - List the first name, last name, and hire date for the employees who were hired in 1986.
 - List the manager of each department along with their department number, department name, employee number, last name, and first name.
