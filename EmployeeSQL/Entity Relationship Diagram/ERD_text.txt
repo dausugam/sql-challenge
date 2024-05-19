@@ -1,0 +1,32 @@
+Departments
+-
+department_id VARCHAR(10) PK
+department_name VARCHAR(255)
+
+Titles
+-
+title_id VARCHAR(10) PK
+title_name VARCHAR(255)
+
+
+Employees
+-
+employee_no INT PK
+employee_title VARCHAR(10) FK >- Titles.title_id
+employee_birth_date DATE
+employee_first_name VARCHAR(255)
+employee_last_name VARCHAR(255)
+employee_sex VARCHAR(10)
+employee_hire_date DATE
+
+Salaries
+-
+employee_no INT FK - Employees.employee_no
+salary_amount INT
+
+
+
+Employee_Deparment_Junction
+-
+employee_no INT FK >- Employees.employee_no
+department_id VARCHAR(10) FK >- Departments.department_id
